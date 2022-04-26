@@ -1,0 +1,54 @@
+/*Estilos generales*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Formulario*/
+.Formulario{
+   width: 70%;
+    margin: auto;  
+}
+.bBody{
+    width: 100%;
+    background-color: floralwhite;
+}
+.col-md-4 , .col-md-6 , .col-md-3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.jh1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    font-size: 23px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+}
+/*Scroll :3*/
+body::-webkit-scrollbar {
+	width: 6px;
+	background: floralwhite;
+	
+}
+body::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: #1a1d1e;
+	border-right: 2px solid #242424; 
+}
+/*Footer y header*/
+.Vsinc{
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.Vocc{
+     width: 100%;
+    background: floralwhite;
+    
+}
